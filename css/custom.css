@@ -1,0 +1,62 @@
+body{
+  margin: auto;
+  background-color: pink;
+  width: 80%;
+}
+
+.header img{
+   transform: rotate(90deg);
+   text-align: center;
+   padding:0 20px;
+   bottom: 30px
+   margin: 0 30px;
+}
+.City img{
+  height: 100px;
+  width:150px;
+}
+}
+.City p{
+  display: flex;
+  padding-top: -30%
+}
+
+#Which city p{
+  text-align: left;
+  padding: 20px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    height: none;
+    overflow: hidden;
+}
+/*
+.row:after {
+    content: "";
+    clear: both;
+    overflow: hidden;
+}
+*/
+.column img{
+  width: 150px;
+  height: 150px;
+  transform: rotate(90deg);
+  text-align: center;
+  overflow: hidden;
+}
+.disCenter{
+  margin: left;
+  text-align: left;
+padding-top:  0 30%;
+  border-radius: 60%;
+  float: left;
+}
+@media(min-width:768px){
+  .column{
+  float:left;
+  width:30%;
+  overflow: hidden;
+}
+}
