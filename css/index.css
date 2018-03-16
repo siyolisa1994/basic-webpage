@@ -30,9 +30,11 @@ table, th,td {
   display: flex;
 }
 .header h2 {
-  padding-top: 5%;
+  padding-top: -5%;
 }
 .header img{
+  border: 3px solid;
+  transform: rotate(270deg);
 }
 #historical Places .box img{
   margin-bottom: 1px;
@@ -84,8 +86,6 @@ h2{
 .disCenter{
   margin: left;
   text-align: left;
-
-  border-radius: 50%;
   float: left;
-  transform: rotate(90deg);
+  transform: rotate(180deg);
 }
