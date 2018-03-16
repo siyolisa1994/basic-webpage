@@ -232,8 +232,8 @@ p {
   .col-11 {
     width: 87.66%;
   }
-s
-s  .col-12 {
+
+  .col-12 {
     width: 96%;
   }
 
@@ -248,36 +248,14 @@ s  .col-12 {
     max-width: 60rem;
   }
 }
-.col-4 img{
-  float: left;
-  padding: 5px;
-  overflow: hidden;
-}
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 0 auto;
+h1{
 
+  text-align:left;
 }
-
-th, td {
-  text-align: left;
-
-  padding: 10px;
-}
-th{
-color: grey;
-}
-
-tr:nth-child(even) {background-color: #f2f2f2;
-}
-.disCenter{
-  transform: rotate(90deg);
-}
-.row p{
-float: left;
-}
-.land {
-text-align: center;
+.col-6 , .button1{
+  color: "pink";
+  width: none;
+  border: 0.1em solid lightblue;
+  padding-bottom: 0.5em;
 
 }
