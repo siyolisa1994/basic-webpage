@@ -204,7 +204,10 @@ p {
   .col-4 {
     width: 29.33%;
   }
-
+.col-4 img{
+  height: 120px;
+  width: 120px;
+}
   .col-5 {
     width: 37.66%;
   }
